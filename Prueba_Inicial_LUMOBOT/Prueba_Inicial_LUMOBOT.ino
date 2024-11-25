@@ -1,17 +1,17 @@
 #include <NewPing.h>  //Librería para el HC-SR04
 
 #define STBY 6 //StandBy. Funciona con lógica inversa.
-//Motor A - Derecho
+//--------Motor A - Derecho
 #define PWMA 3 //Control de velocidad
 #define AIN1 4 //Dirección
 #define AIN2 5 //Dirección
 
-//Motor B - Izquierdo
+//-------Motor B - Izquierdo
 #define PWMB 9 //Control de velocidad
 #define BIN1 7 //Dirección
 #define BIN2 8 //Dirección
 
-//Sensor Ultrsonidos
+//-------Sensor Ultrasonidos
 #define pinEcho 10
 #define pinTrigger 11
 
