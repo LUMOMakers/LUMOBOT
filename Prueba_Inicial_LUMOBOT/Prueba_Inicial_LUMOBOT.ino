@@ -47,6 +47,7 @@ void loop() {
       adelante();
     }
   */
+  
   adelante();
   delay(1000);
   parar();
@@ -60,9 +61,9 @@ void loop() {
 
 void atras(){
   digitalWrite(STBY,HIGH); //Activa los motores
-   //Adelante (Cuidado, tener en cuenta cómo se conectan los cables del motor)
+  //Adelante (Cuidado, tener en cuenta cómo se conectan los cables del motor)
  
- digitalWrite(STBY,HIGH); //Activa los motores
+  digitalWrite(STBY,HIGH); //Activa los motores
   digitalWrite(PWMA,60);    //Motor Derecho (A)
   digitalWrite(AIN1,HIGH);
   digitalWrite(AIN2,LOW);
